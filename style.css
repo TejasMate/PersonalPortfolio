@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./mountains\ jpegg.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* header area start */
+
+/* logo area start */
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 100%;
+}
+
+.logo img {
+  position: absolute;
+  width: 193px;
+  height: 44px;
+}
+
+.logo a {
+  display: inline-block;
+  height: 44px;
+  width: 185px;
+  margin-left: 20px;
+}
+
+/* logo area end */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 8vh;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+}
+
+ul li{
+  margin-top: 15px;
+}
+
+.nav-links li a {
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 1.23rem;
+  padding: 10px 20px;
+}
+
+li a:hover{
+  background-color: #ff497c;
+}
+
+
+/* header area end */
+
+/* view area start */
+
+.view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.view img {
+  border: 6px solid white;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.view h1 {
+  font-family: sans-serif;
+  color: white;
+  font-size: 3rem;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.view span::after {
+  content: '';
+  animation: animate 4s infinite;
+  animation-timing-function: ease-in-out;
+  color: #ff1b5b;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+@keyframes animate {
+  0% {
+    content: "Reader";
+  }
+  
+  50% {
+    content: "Web Designer";
+  }
+  
+  100% {
+    content: "Freelancer";
+  }
+
+}
+
+.shining {
+  display: flex;
+  margin: 0px;
+  margin-top: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 4px;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animatek 3s linear infinite;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animatek {
+  0% {
+    background-position: -500%;
+  }
+
+  100% {
+    background-position: 500%;
+  }
+}
+
+/* view area end */
+/* skill area start */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* skill area end */
+
+
+
