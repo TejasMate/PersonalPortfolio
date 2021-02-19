@@ -112,7 +112,7 @@ li a:hover{
 
 @keyframes animate {
   0% {
-    content: "Reader";
+    content: "Student";
   }
   
   50% {
@@ -120,7 +120,7 @@ li a:hover{
   }
   
   100% {
-    content: "Freelancer";
+    content: "Learner";
   }
 
 }
